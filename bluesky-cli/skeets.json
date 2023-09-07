@@ -1,0 +1,1081 @@
+{
+  "feed": [
+    {
+      "post": {
+        "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qzjteiiw2t",
+        "cid": "bafyreigqexhbgcxoaa73ly7htlf7m5tpxhb3n3zefq72yuy3abxrjhnrcq",
+        "author": {
+          "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+          "handle": "mmasnick.bsky.social",
+          "displayName": "Mike Masnick",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k3r3r4i7c72d"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "Meanwhile...",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.record",
+            "record": {
+              "cid": "bafyreigk5dvuamnwwxcxmvommqvu22qkr3nbrwnx7fvlsxet3i2nlpu6y4",
+              "uri": "at://did:plc:jmte4w4x7ukciit6lci6ziau/app.bsky.feed.post/3k6qtadsjwn2q"
+            }
+          },
+          "langs": ["en"],
+          "createdAt": "2023-09-06T22:00:36.186Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.record#view",
+          "record": {
+            "$type": "app.bsky.embed.record#viewRecord",
+            "uri": "at://did:plc:jmte4w4x7ukciit6lci6ziau/app.bsky.feed.post/3k6qtadsjwn2q",
+            "cid": "bafyreigk5dvuamnwwxcxmvommqvu22qkr3nbrwnx7fvlsxet3i2nlpu6y4",
+            "author": {
+              "did": "did:plc:jmte4w4x7ukciit6lci6ziau",
+              "handle": "phillewis.bsky.social",
+              "displayName": "Phil Lewis",
+              "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:jmte4w4x7ukciit6lci6ziau/bafkreif5xhqmtujhof4uey7cczispl54swmm6tfw5ouvurkppjgnkj2nbq@jpeg",
+              "viewer": { "muted": false, "blockedBy": false },
+              "labels": []
+            },
+            "value": {
+              "text": "MEXICO CITY (AP) \u2014 Mexico\u2019s Supreme Court decriminalizes abortion nationwide.",
+              "$type": "app.bsky.feed.post",
+              "langs": ["en"],
+              "createdAt": "2023-09-06T20:07:56.109Z"
+            },
+            "labels": [],
+            "indexedAt": "2023-09-06T20:07:56.109Z",
+            "embeds": []
+          }
+        },
+        "replyCount": 0,
+        "repostCount": 2,
+        "likeCount": 10,
+        "indexedAt": "2023-09-06T22:00:36.186Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qziv3thm26",
+        "cid": "bafyreifovgbvh7medb6qxpdhpqarn77wh2jnnnkchhkcl54s7mf2xoxrym",
+        "author": {
+          "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+          "handle": "pwnallthethings.bsky.social",
+          "displayName": "Pwnallthethings",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "If you're not a secretary of state or otherwise have obvious standing, better to argue \"I will not decide my vote before the election, but if he's not qualified and if I did decide to vote for him and it did turn out he is ineligible, my vote would be pointless, so his inclusion is a harm to me\"",
+          "$type": "app.bsky.feed.post",
+          "langs": ["en"],
+          "reply": {
+            "root": {
+              "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+              "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25"
+            },
+            "parent": {
+              "cid": "bafyreifhhse4m3ainwg5z4tlbfcwh4h7dm5bctf4mwajrp6jfsglxz5icu",
+              "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qzd64kd62f"
+            }
+          },
+          "createdAt": "2023-09-06T22:00:04.867Z"
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 3,
+        "indexedAt": "2023-09-06T22:00:04.867Z",
+        "viewer": {},
+        "labels": []
+      },
+      "reply": {
+        "root": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25",
+          "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+          "author": {
+            "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+            "handle": "pwnallthethings.bsky.social",
+            "displayName": "Pwnallthethings",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "Hmmm. Let's see how this goes.",
+            "$type": "app.bsky.feed.post",
+            "embed": {
+              "$type": "app.bsky.embed.record",
+              "record": {
+                "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+                "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p"
+              }
+            },
+            "langs": ["en"],
+            "createdAt": "2023-09-06T21:54:08.660Z"
+          },
+          "embed": {
+            "$type": "app.bsky.embed.record#view",
+            "record": {
+              "$type": "app.bsky.embed.record#viewRecord",
+              "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p",
+              "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+              "author": {
+                "did": "did:plc:bj6a7q7sbqu2vil6bviysjgg",
+                "handle": "lawfare.bsky.social",
+                "displayName": "Lawfare",
+                "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreicybjn3slki6yjgpzmnfe3htmj5aw3avcquadmnhgrrf7a2us3m4m@jpeg",
+                "viewer": { "muted": false, "blockedBy": false },
+                "labels": []
+              },
+              "value": {
+                "text": "Today, a group of voters in Colorado filed a lawsuit to prevent Trump from being on the 2024 ballot, arguing that he is disqualified from running under Sec. 3 of the 14th Amendment. Read the suit, from @katherinepomps.bsky.social.",
+                "$type": "app.bsky.feed.post",
+                "embed": {
+                  "$type": "app.bsky.embed.external",
+                  "external": {
+                    "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                    "thumb": {
+                      "$type": "blob",
+                      "ref": {
+                        "$link": "bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu"
+                      },
+                      "mimeType": "image/jpeg",
+                      "size": 837253
+                    },
+                    "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                    "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment."
+                  }
+                },
+                "langs": ["en"],
+                "facets": [
+                  {
+                    "$type": "app.bsky.richtext.facet",
+                    "index": { "byteEnd": 229, "byteStart": 202 },
+                    "features": [
+                      {
+                        "did": "did:plc:fammzy5o2wdksfw3u2qkls7m",
+                        "$type": "app.bsky.richtext.facet#mention"
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2023-09-06T21:44:56.514Z"
+              },
+              "labels": [],
+              "indexedAt": "2023-09-06T21:44:56.441Z",
+              "embeds": [
+                {
+                  "$type": "app.bsky.embed.external#view",
+                  "external": {
+                    "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                    "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                    "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment.",
+                    "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu@jpeg"
+                  }
+                }
+              ]
+            }
+          },
+          "replyCount": 4,
+          "repostCount": 2,
+          "likeCount": 16,
+          "indexedAt": "2023-09-06T21:54:08.660Z",
+          "viewer": {},
+          "labels": []
+        },
+        "parent": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qzd64kd62f",
+          "cid": "bafyreifhhse4m3ainwg5z4tlbfcwh4h7dm5bctf4mwajrp6jfsglxz5icu",
+          "author": {
+            "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+            "handle": "pwnallthethings.bsky.social",
+            "displayName": "Pwnallthethings",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "FFS, it was free to not write this",
+            "$type": "app.bsky.feed.post",
+            "embed": {
+              "$type": "app.bsky.embed.images",
+              "images": [
+                {
+                  "alt": "Trump is on the ballot, voters who would otherwise vote for Petitioners' candidates of choice will instead vote for Trump, reducing the likelihood that Petitioners' candidates of choice will win the election",
+                  "image": {
+                    "$type": "blob",
+                    "ref": {
+                      "$link": "bafkreia3n5xv5fsn4vo3swkcvzbqr653giipwhvltw6r3sywh55ygzhxym"
+                    },
+                    "mimeType": "image/jpeg",
+                    "size": 338155
+                  }
+                }
+              ]
+            },
+            "langs": ["en"],
+            "reply": {
+              "root": {
+                "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+                "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25"
+              },
+              "parent": {
+                "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+                "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25"
+              }
+            },
+            "createdAt": "2023-09-06T21:56:53.014Z"
+          },
+          "embed": {
+            "$type": "app.bsky.embed.images#view",
+            "images": [
+              {
+                "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreia3n5xv5fsn4vo3swkcvzbqr653giipwhvltw6r3sywh55ygzhxym@jpeg",
+                "fullsize": "https://av-cdn.bsky.app/img/feed_fullsize/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreia3n5xv5fsn4vo3swkcvzbqr653giipwhvltw6r3sywh55ygzhxym@jpeg",
+                "alt": "Trump is on the ballot, voters who would otherwise vote for Petitioners' candidates of choice will instead vote for Trump, reducing the likelihood that Petitioners' candidates of choice will win the election"
+              }
+            ]
+          },
+          "replyCount": 2,
+          "repostCount": 0,
+          "likeCount": 6,
+          "indexedAt": "2023-09-06T21:56:53.014Z",
+          "viewer": {},
+          "labels": []
+        }
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:katl2n3xfpfwpv45aiwwtbrb/app.bsky.feed.post/3k6qzhb7sd42t",
+        "cid": "bafyreibecapmifpgmtoayeoonw5lqsw6nhfbnuzgr4hjshwm7ypg4scfgi",
+        "author": {
+          "did": "did:plc:katl2n3xfpfwpv45aiwwtbrb",
+          "handle": "cara.city",
+          "displayName": "Cara Esten",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:katl2n3xfpfwpv45aiwwtbrb/bafkreihn5p6mjrny2x3gjboiujdxgqt56bhlvlr6mbzattqmhai6jn5sz4@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k37vmt46ll2m"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "I should call her",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.images",
+            "images": [
+              {
+                "alt": "A store sign that reads \"bread and spread\" on a brick building",
+                "image": {
+                  "$type": "blob",
+                  "ref": {
+                    "$link": "bafkreid2zxrehu52337czmaplztzulinni4zor74uktmxvt6lcvyyomixe"
+                  },
+                  "mimeType": "image/jpeg",
+                  "size": 716122
+                }
+              }
+            ]
+          },
+          "langs": ["en"],
+          "createdAt": "2023-09-06T21:59:09.590Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.images#view",
+          "images": [
+            {
+              "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:katl2n3xfpfwpv45aiwwtbrb/bafkreid2zxrehu52337czmaplztzulinni4zor74uktmxvt6lcvyyomixe@jpeg",
+              "fullsize": "https://av-cdn.bsky.app/img/feed_fullsize/plain/did:plc:katl2n3xfpfwpv45aiwwtbrb/bafkreid2zxrehu52337czmaplztzulinni4zor74uktmxvt6lcvyyomixe@jpeg",
+              "alt": "A store sign that reads \"bread and spread\" on a brick building"
+            }
+          ]
+        },
+        "replyCount": 0,
+        "repostCount": 1,
+        "likeCount": 25,
+        "indexedAt": "2023-09-06T21:59:09.590Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qzgx6k2v25",
+        "cid": "bafyreibbrymdx3osysx5fquh66c7tw65haxvnc2psbwpsw25tlcldhidce",
+        "author": {
+          "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+          "handle": "mmasnick.bsky.social",
+          "displayName": "Mike Masnick",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k3r3r4i7c72d"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "Huh?",
+          "$type": "app.bsky.feed.post",
+          "langs": ["en"],
+          "reply": {
+            "root": {
+              "cid": "bafyreigjckgadm7ylk4tdjn6oev2nb7veyahqtk6bx2ghyfd5bglcqx63a",
+              "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qz6t3zq327"
+            },
+            "parent": {
+              "cid": "bafyreifz6ljh3tw2oisopgjhugx5uoecniu4zsjcqxmarcavs4dtue4wji",
+              "uri": "at://did:plc:4zshebjfpzk4grqukxhevhur/app.bsky.feed.post/3k6qzd5lejg2f"
+            }
+          },
+          "createdAt": "2023-09-06T21:58:59.516Z"
+        },
+        "replyCount": 1,
+        "repostCount": 0,
+        "likeCount": 0,
+        "indexedAt": "2023-09-06T21:58:59.516Z",
+        "viewer": {},
+        "labels": []
+      },
+      "reply": {
+        "root": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qz6t3zq327",
+          "cid": "bafyreigjckgadm7ylk4tdjn6oev2nb7veyahqtk6bx2ghyfd5bglcqx63a",
+          "author": {
+            "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+            "handle": "mmasnick.bsky.social",
+            "displayName": "Mike Masnick",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k3r3r4i7c72d"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "Literally every point in what Elon calls an \"accurate analysis\" is false, misleading, or totally out of context if you watch the full video. Once again, Elon may be the dumbest person on this planet.",
+            "$type": "app.bsky.feed.post",
+            "embed": {
+              "$type": "app.bsky.embed.images",
+              "images": [
+                {
+                  "alt": "Elon quote tweeting Mario Nawfal. Elon's tweet says: \"Accurate analysis.\"\n\nMario's tweet: BREAKING: DEBUNKING THE LIES IN ADL'S RESPONSE TO ELON\n\nADL's CEO broke his silence on \ud835\udd4f and Elon by lying and trapping the host:\n\n1) He claimed that Elon brought and amplified anti-semitism and hate speech back to the platform. \n\nThis is NOT TRUE. The \ud835\udd4f Safety team shared that an independent assessment by Sprinklr found that hate speech impressions on \ud835\udd4f \u201cto be 0.003% compared to Twitter\u2019s estimate of 0.012%.\u201d\n\n2) Greenblatt clarified that he has never claimed Elon or \ud835\udd4f are anti-Semitic: \u201cI don\u2019t think Twitter as a platform is anti-Semitic.\u201d\n\n3) When Greenblatt was asked by the host (who also identified as Jewish) if he was seeking a position or donation from \ud835\udd4f to the ADL, he took offense to this, called it an anti-semetic trope, almost as if he was trying to cancel him, leaving the host uncomfortable and defensive.\n\n4) Greenblatt claimed ADL is NOT publicly or privately talking to advertiser",
+                  "image": {
+                    "$type": "blob",
+                    "ref": {
+                      "$link": "bafkreicljtf56ecol46iow35koqgqtuw6xqkxrugzzitovxz3l73gpzw2a"
+                    },
+                    "mimeType": "image/jpeg",
+                    "size": 264695
+                  }
+                }
+              ]
+            },
+            "langs": ["en"],
+            "createdAt": "2023-09-06T21:54:26.816Z"
+          },
+          "embed": {
+            "$type": "app.bsky.embed.images#view",
+            "images": [
+              {
+                "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreicljtf56ecol46iow35koqgqtuw6xqkxrugzzitovxz3l73gpzw2a@jpeg",
+                "fullsize": "https://av-cdn.bsky.app/img/feed_fullsize/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreicljtf56ecol46iow35koqgqtuw6xqkxrugzzitovxz3l73gpzw2a@jpeg",
+                "alt": "Elon quote tweeting Mario Nawfal. Elon's tweet says: \"Accurate analysis.\"\n\nMario's tweet: BREAKING: DEBUNKING THE LIES IN ADL'S RESPONSE TO ELON\n\nADL's CEO broke his silence on \ud835\udd4f and Elon by lying and trapping the host:\n\n1) He claimed that Elon brought and amplified anti-semitism and hate speech back to the platform. \n\nThis is NOT TRUE. The \ud835\udd4f Safety team shared that an independent assessment by Sprinklr found that hate speech impressions on \ud835\udd4f \u201cto be 0.003% compared to Twitter\u2019s estimate of 0.012%.\u201d\n\n2) Greenblatt clarified that he has never claimed Elon or \ud835\udd4f are anti-Semitic: \u201cI don\u2019t think Twitter as a platform is anti-Semitic.\u201d\n\n3) When Greenblatt was asked by the host (who also identified as Jewish) if he was seeking a position or donation from \ud835\udd4f to the ADL, he took offense to this, called it an anti-semetic trope, almost as if he was trying to cancel him, leaving the host uncomfortable and defensive.\n\n4) Greenblatt claimed ADL is NOT publicly or privately talking to advertiser"
+              }
+            ]
+          },
+          "replyCount": 3,
+          "repostCount": 2,
+          "likeCount": 29,
+          "indexedAt": "2023-09-06T21:54:26.816Z",
+          "viewer": {},
+          "labels": []
+        },
+        "parent": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:4zshebjfpzk4grqukxhevhur/app.bsky.feed.post/3k6qzd5lejg2f",
+          "cid": "bafyreifz6ljh3tw2oisopgjhugx5uoecniu4zsjcqxmarcavs4dtue4wji",
+          "author": {
+            "did": "did:plc:4zshebjfpzk4grqukxhevhur",
+            "handle": "thewanderingjew.bsky.social",
+            "displayName": "Buttadeus",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:4zshebjfpzk4grqukxhevhur/bafkreiaeqxbx7koey2wnvosp5ndcwfki6qpzyxqlh653buly2pyjl2wgoy@jpeg",
+            "viewer": { "muted": false, "blockedBy": false },
+            "labels": []
+          },
+          "record": {
+            "text": "Yeah - he IS extremely dumb, but it's also looking like Greenblatt has no ability to actually fight him, so there's at least a second challenger here.",
+            "$type": "app.bsky.feed.post",
+            "langs": ["en"],
+            "reply": {
+              "root": {
+                "cid": "bafyreigjckgadm7ylk4tdjn6oev2nb7veyahqtk6bx2ghyfd5bglcqx63a",
+                "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qz6t3zq327"
+              },
+              "parent": {
+                "cid": "bafyreigjckgadm7ylk4tdjn6oev2nb7veyahqtk6bx2ghyfd5bglcqx63a",
+                "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qz6t3zq327"
+              }
+            },
+            "createdAt": "2023-09-06T21:56:39.204Z"
+          },
+          "replyCount": 2,
+          "repostCount": 0,
+          "likeCount": 0,
+          "indexedAt": "2023-09-06T21:56:39.204Z",
+          "viewer": {},
+          "labels": []
+        }
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:z2rokxrttw5254hogmucux2x/app.bsky.feed.post/3k6qzfhjl7u2t",
+        "cid": "bafyreibig6lt3yobnqvlt5ulqyfolcpz6qxsn6gpxigxtmriubwcmbwls4",
+        "author": {
+          "did": "did:plc:z2rokxrttw5254hogmucux2x",
+          "handle": "lookitup.baby",
+          "displayName": "Ian Coldwater",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:z2rokxrttw5254hogmucux2x/bafkreif7zcepr4rrg3o4gctttycvbklypxvzlpsfd7y4bo2bkixrvdafv4@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k3cnjo4tls2i"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "I love masking. No one gets to tell me to smile more or see my fucked up teeth AND it helps me avoid getting sick? Hell yeah, sign me up",
+          "$type": "app.bsky.feed.post",
+          "langs": ["en"],
+          "createdAt": "2023-09-06T21:58:10.007Z"
+        },
+        "replyCount": 3,
+        "repostCount": 0,
+        "likeCount": 14,
+        "indexedAt": "2023-09-06T21:58:10.007Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qze3ocwv25",
+        "cid": "bafyreiaja4kjtccupuw2peuydajxcfevejymmqoheaswzvgxakws2buk7i",
+        "author": {
+          "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+          "handle": "mmasnick.bsky.social",
+          "displayName": "Mike Masnick",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k3r3r4i7c72d"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "Welcome Jess, everyone...",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.record",
+            "record": {
+              "cid": "bafyreihh23pvjjdwyqyrel5o4vlozv3ula4zgfn6pkulilm3bmzqkxejju",
+              "uri": "at://did:plc:vlo3zxogayv3fr7i6yzfjufq/app.bsky.feed.post/3k6qwtamanj2n"
+            }
+          },
+          "langs": ["en"],
+          "createdAt": "2023-09-06T21:57:23.572Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.record#view",
+          "record": {
+            "$type": "app.bsky.embed.record#viewRecord",
+            "uri": "at://did:plc:vlo3zxogayv3fr7i6yzfjufq/app.bsky.feed.post/3k6qwtamanj2n",
+            "cid": "bafyreihh23pvjjdwyqyrel5o4vlozv3ula4zgfn6pkulilm3bmzqkxejju",
+            "author": {
+              "did": "did:plc:vlo3zxogayv3fr7i6yzfjufq",
+              "handle": "jmiers230.bsky.social",
+              "displayName": "Jess Miers \ud83e\udd9d",
+              "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:vlo3zxogayv3fr7i6yzfjufq/bafkreihkp4nv5rmbjlmfhfh6ef3bk22nhvrgnesazyveeogdt47sjpalku@jpeg",
+              "viewer": { "muted": false, "blockedBy": false },
+              "labels": []
+            },
+            "value": {
+              "text": "I've been holding on to X mostly because posting to it is literally in my job description. \n\nHowever, after the blatant display of antisemitism from Musk yesterday, I feel complicit hanging around there. \n\nWith that, I'll be putting more effort into this app. I'm sorry it took me this long.",
+              "$type": "app.bsky.feed.post",
+              "langs": ["en"],
+              "createdAt": "2023-09-06T21:12:10.469Z"
+            },
+            "labels": [],
+            "indexedAt": "2023-09-06T21:12:10.469Z",
+            "embeds": []
+          }
+        },
+        "replyCount": 0,
+        "repostCount": 1,
+        "likeCount": 16,
+        "indexedAt": "2023-09-06T21:57:23.572Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qzd64kd62f",
+        "cid": "bafyreifhhse4m3ainwg5z4tlbfcwh4h7dm5bctf4mwajrp6jfsglxz5icu",
+        "author": {
+          "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+          "handle": "pwnallthethings.bsky.social",
+          "displayName": "Pwnallthethings",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "FFS, it was free to not write this",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.images",
+            "images": [
+              {
+                "alt": "Trump is on the ballot, voters who would otherwise vote for Petitioners' candidates of choice will instead vote for Trump, reducing the likelihood that Petitioners' candidates of choice will win the election",
+                "image": {
+                  "$type": "blob",
+                  "ref": {
+                    "$link": "bafkreia3n5xv5fsn4vo3swkcvzbqr653giipwhvltw6r3sywh55ygzhxym"
+                  },
+                  "mimeType": "image/jpeg",
+                  "size": 338155
+                }
+              }
+            ]
+          },
+          "langs": ["en"],
+          "reply": {
+            "root": {
+              "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+              "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25"
+            },
+            "parent": {
+              "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+              "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25"
+            }
+          },
+          "createdAt": "2023-09-06T21:56:53.014Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.images#view",
+          "images": [
+            {
+              "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreia3n5xv5fsn4vo3swkcvzbqr653giipwhvltw6r3sywh55ygzhxym@jpeg",
+              "fullsize": "https://av-cdn.bsky.app/img/feed_fullsize/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreia3n5xv5fsn4vo3swkcvzbqr653giipwhvltw6r3sywh55ygzhxym@jpeg",
+              "alt": "Trump is on the ballot, voters who would otherwise vote for Petitioners' candidates of choice will instead vote for Trump, reducing the likelihood that Petitioners' candidates of choice will win the election"
+            }
+          ]
+        },
+        "replyCount": 2,
+        "repostCount": 0,
+        "likeCount": 6,
+        "indexedAt": "2023-09-06T21:56:53.014Z",
+        "viewer": {},
+        "labels": []
+      },
+      "reply": {
+        "root": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25",
+          "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+          "author": {
+            "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+            "handle": "pwnallthethings.bsky.social",
+            "displayName": "Pwnallthethings",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "Hmmm. Let's see how this goes.",
+            "$type": "app.bsky.feed.post",
+            "embed": {
+              "$type": "app.bsky.embed.record",
+              "record": {
+                "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+                "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p"
+              }
+            },
+            "langs": ["en"],
+            "createdAt": "2023-09-06T21:54:08.660Z"
+          },
+          "embed": {
+            "$type": "app.bsky.embed.record#view",
+            "record": {
+              "$type": "app.bsky.embed.record#viewRecord",
+              "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p",
+              "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+              "author": {
+                "did": "did:plc:bj6a7q7sbqu2vil6bviysjgg",
+                "handle": "lawfare.bsky.social",
+                "displayName": "Lawfare",
+                "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreicybjn3slki6yjgpzmnfe3htmj5aw3avcquadmnhgrrf7a2us3m4m@jpeg",
+                "viewer": { "muted": false, "blockedBy": false },
+                "labels": []
+              },
+              "value": {
+                "text": "Today, a group of voters in Colorado filed a lawsuit to prevent Trump from being on the 2024 ballot, arguing that he is disqualified from running under Sec. 3 of the 14th Amendment. Read the suit, from @katherinepomps.bsky.social.",
+                "$type": "app.bsky.feed.post",
+                "embed": {
+                  "$type": "app.bsky.embed.external",
+                  "external": {
+                    "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                    "thumb": {
+                      "$type": "blob",
+                      "ref": {
+                        "$link": "bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu"
+                      },
+                      "mimeType": "image/jpeg",
+                      "size": 837253
+                    },
+                    "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                    "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment."
+                  }
+                },
+                "langs": ["en"],
+                "facets": [
+                  {
+                    "$type": "app.bsky.richtext.facet",
+                    "index": { "byteEnd": 229, "byteStart": 202 },
+                    "features": [
+                      {
+                        "did": "did:plc:fammzy5o2wdksfw3u2qkls7m",
+                        "$type": "app.bsky.richtext.facet#mention"
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2023-09-06T21:44:56.514Z"
+              },
+              "labels": [],
+              "indexedAt": "2023-09-06T21:44:56.441Z",
+              "embeds": [
+                {
+                  "$type": "app.bsky.embed.external#view",
+                  "external": {
+                    "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                    "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                    "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment.",
+                    "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu@jpeg"
+                  }
+                }
+              ]
+            }
+          },
+          "replyCount": 4,
+          "repostCount": 2,
+          "likeCount": 16,
+          "indexedAt": "2023-09-06T21:54:08.660Z",
+          "viewer": {},
+          "labels": []
+        },
+        "parent": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25",
+          "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+          "author": {
+            "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+            "handle": "pwnallthethings.bsky.social",
+            "displayName": "Pwnallthethings",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "Hmmm. Let's see how this goes.",
+            "$type": "app.bsky.feed.post",
+            "embed": {
+              "$type": "app.bsky.embed.record",
+              "record": {
+                "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+                "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p"
+              }
+            },
+            "langs": ["en"],
+            "createdAt": "2023-09-06T21:54:08.660Z"
+          },
+          "embed": {
+            "$type": "app.bsky.embed.record#view",
+            "record": {
+              "$type": "app.bsky.embed.record#viewRecord",
+              "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p",
+              "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+              "author": {
+                "did": "did:plc:bj6a7q7sbqu2vil6bviysjgg",
+                "handle": "lawfare.bsky.social",
+                "displayName": "Lawfare",
+                "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreicybjn3slki6yjgpzmnfe3htmj5aw3avcquadmnhgrrf7a2us3m4m@jpeg",
+                "viewer": { "muted": false, "blockedBy": false },
+                "labels": []
+              },
+              "value": {
+                "text": "Today, a group of voters in Colorado filed a lawsuit to prevent Trump from being on the 2024 ballot, arguing that he is disqualified from running under Sec. 3 of the 14th Amendment. Read the suit, from @katherinepomps.bsky.social.",
+                "$type": "app.bsky.feed.post",
+                "embed": {
+                  "$type": "app.bsky.embed.external",
+                  "external": {
+                    "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                    "thumb": {
+                      "$type": "blob",
+                      "ref": {
+                        "$link": "bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu"
+                      },
+                      "mimeType": "image/jpeg",
+                      "size": 837253
+                    },
+                    "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                    "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment."
+                  }
+                },
+                "langs": ["en"],
+                "facets": [
+                  {
+                    "$type": "app.bsky.richtext.facet",
+                    "index": { "byteEnd": 229, "byteStart": 202 },
+                    "features": [
+                      {
+                        "did": "did:plc:fammzy5o2wdksfw3u2qkls7m",
+                        "$type": "app.bsky.richtext.facet#mention"
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2023-09-06T21:44:56.514Z"
+              },
+              "labels": [],
+              "indexedAt": "2023-09-06T21:44:56.441Z",
+              "embeds": [
+                {
+                  "$type": "app.bsky.embed.external#view",
+                  "external": {
+                    "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                    "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                    "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment.",
+                    "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu@jpeg"
+                  }
+                }
+              ]
+            }
+          },
+          "replyCount": 4,
+          "repostCount": 2,
+          "likeCount": 16,
+          "indexedAt": "2023-09-06T21:54:08.660Z",
+          "viewer": {},
+          "labels": []
+        }
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:cak4klqoj3bqgk5rj6b4f5do/app.bsky.feed.post/3k6qz6t3zq327",
+        "cid": "bafyreigjckgadm7ylk4tdjn6oev2nb7veyahqtk6bx2ghyfd5bglcqx63a",
+        "author": {
+          "did": "did:plc:cak4klqoj3bqgk5rj6b4f5do",
+          "handle": "mmasnick.bsky.social",
+          "displayName": "Mike Masnick",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreifrr5n5p2ixfbupo3eocykh5jzd67dy2tohi7pzllacainjgkkq5e@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k3r3r4i7c72d"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "Literally every point in what Elon calls an \"accurate analysis\" is false, misleading, or totally out of context if you watch the full video. Once again, Elon may be the dumbest person on this planet.",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.images",
+            "images": [
+              {
+                "alt": "Elon quote tweeting Mario Nawfal. Elon's tweet says: \"Accurate analysis.\"\n\nMario's tweet: BREAKING: DEBUNKING THE LIES IN ADL'S RESPONSE TO ELON\n\nADL's CEO broke his silence on \ud835\udd4f and Elon by lying and trapping the host:\n\n1) He claimed that Elon brought and amplified anti-semitism and hate speech back to the platform. \n\nThis is NOT TRUE. The \ud835\udd4f Safety team shared that an independent assessment by Sprinklr found that hate speech impressions on \ud835\udd4f \u201cto be 0.003% compared to Twitter\u2019s estimate of 0.012%.\u201d\n\n2) Greenblatt clarified that he has never claimed Elon or \ud835\udd4f are anti-Semitic: \u201cI don\u2019t think Twitter as a platform is anti-Semitic.\u201d\n\n3) When Greenblatt was asked by the host (who also identified as Jewish) if he was seeking a position or donation from \ud835\udd4f to the ADL, he took offense to this, called it an anti-semetic trope, almost as if he was trying to cancel him, leaving the host uncomfortable and defensive.\n\n4) Greenblatt claimed ADL is NOT publicly or privately talking to advertiser",
+                "image": {
+                  "$type": "blob",
+                  "ref": {
+                    "$link": "bafkreicljtf56ecol46iow35koqgqtuw6xqkxrugzzitovxz3l73gpzw2a"
+                  },
+                  "mimeType": "image/jpeg",
+                  "size": 264695
+                }
+              }
+            ]
+          },
+          "langs": ["en"],
+          "createdAt": "2023-09-06T21:54:26.816Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.images#view",
+          "images": [
+            {
+              "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreicljtf56ecol46iow35koqgqtuw6xqkxrugzzitovxz3l73gpzw2a@jpeg",
+              "fullsize": "https://av-cdn.bsky.app/img/feed_fullsize/plain/did:plc:cak4klqoj3bqgk5rj6b4f5do/bafkreicljtf56ecol46iow35koqgqtuw6xqkxrugzzitovxz3l73gpzw2a@jpeg",
+              "alt": "Elon quote tweeting Mario Nawfal. Elon's tweet says: \"Accurate analysis.\"\n\nMario's tweet: BREAKING: DEBUNKING THE LIES IN ADL'S RESPONSE TO ELON\n\nADL's CEO broke his silence on \ud835\udd4f and Elon by lying and trapping the host:\n\n1) He claimed that Elon brought and amplified anti-semitism and hate speech back to the platform. \n\nThis is NOT TRUE. The \ud835\udd4f Safety team shared that an independent assessment by Sprinklr found that hate speech impressions on \ud835\udd4f \u201cto be 0.003% compared to Twitter\u2019s estimate of 0.012%.\u201d\n\n2) Greenblatt clarified that he has never claimed Elon or \ud835\udd4f are anti-Semitic: \u201cI don\u2019t think Twitter as a platform is anti-Semitic.\u201d\n\n3) When Greenblatt was asked by the host (who also identified as Jewish) if he was seeking a position or donation from \ud835\udd4f to the ADL, he took offense to this, called it an anti-semetic trope, almost as if he was trying to cancel him, leaving the host uncomfortable and defensive.\n\n4) Greenblatt claimed ADL is NOT publicly or privately talking to advertiser"
+            }
+          ]
+        },
+        "replyCount": 3,
+        "repostCount": 2,
+        "likeCount": 29,
+        "indexedAt": "2023-09-06T21:54:26.816Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:ovyajbnegrir2ddtwfhijiob/app.bsky.feed.post/3k6qz6bf3as25",
+        "cid": "bafyreifi2ut2rgjqd4ijq4zdbwzbehnz3l3if4ttruzruec33s6tjs65ve",
+        "author": {
+          "did": "did:plc:ovyajbnegrir2ddtwfhijiob",
+          "handle": "pwnallthethings.bsky.social",
+          "displayName": "Pwnallthethings",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:ovyajbnegrir2ddtwfhijiob/bafkreigshibagl3u2yefhuj3qkthwlbkufw4vhpv6cevvgfmp5uwioxmdq@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3jzucbrlbcd2k"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "Hmmm. Let's see how this goes.",
+          "$type": "app.bsky.feed.post",
+          "embed": {
+            "$type": "app.bsky.embed.record",
+            "record": {
+              "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+              "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p"
+            }
+          },
+          "langs": ["en"],
+          "createdAt": "2023-09-06T21:54:08.660Z"
+        },
+        "embed": {
+          "$type": "app.bsky.embed.record#view",
+          "record": {
+            "$type": "app.bsky.embed.record#viewRecord",
+            "uri": "at://did:plc:bj6a7q7sbqu2vil6bviysjgg/app.bsky.feed.post/3k6qynsgetl2p",
+            "cid": "bafyreifvqdm2nnlwjwboqdxj7tf7tmbddtgpl3x2jtptlmugssqffrtx4q",
+            "author": {
+              "did": "did:plc:bj6a7q7sbqu2vil6bviysjgg",
+              "handle": "lawfare.bsky.social",
+              "displayName": "Lawfare",
+              "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreicybjn3slki6yjgpzmnfe3htmj5aw3avcquadmnhgrrf7a2us3m4m@jpeg",
+              "viewer": { "muted": false, "blockedBy": false },
+              "labels": []
+            },
+            "value": {
+              "text": "Today, a group of voters in Colorado filed a lawsuit to prevent Trump from being on the 2024 ballot, arguing that he is disqualified from running under Sec. 3 of the 14th Amendment. Read the suit, from @katherinepomps.bsky.social.",
+              "$type": "app.bsky.feed.post",
+              "embed": {
+                "$type": "app.bsky.embed.external",
+                "external": {
+                  "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                  "thumb": {
+                    "$type": "blob",
+                    "ref": {
+                      "$link": "bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu"
+                    },
+                    "mimeType": "image/jpeg",
+                    "size": 837253
+                  },
+                  "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                  "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment."
+                }
+              },
+              "langs": ["en"],
+              "facets": [
+                {
+                  "$type": "app.bsky.richtext.facet",
+                  "index": { "byteEnd": 229, "byteStart": 202 },
+                  "features": [
+                    {
+                      "did": "did:plc:fammzy5o2wdksfw3u2qkls7m",
+                      "$type": "app.bsky.richtext.facet#mention"
+                    }
+                  ]
+                }
+              ],
+              "createdAt": "2023-09-06T21:44:56.514Z"
+            },
+            "labels": [],
+            "indexedAt": "2023-09-06T21:44:56.441Z",
+            "embeds": [
+              {
+                "$type": "app.bsky.embed.external#view",
+                "external": {
+                  "uri": "https://www.lawfaremedia.org/article/colorado-residents-file-suit-to-disqualify-trump-from-2024-election",
+                  "title": "Colorado Residents File Suit to Disqualify Trump from 2024 Election",
+                  "description": "The petitioners argue that Trump should be disqualified from public office under Section 3 of the Fourteenth Amendment.",
+                  "thumb": "https://av-cdn.bsky.app/img/feed_thumbnail/plain/did:plc:bj6a7q7sbqu2vil6bviysjgg/bafkreia6nlwuksr7d73ovlnf7ckxmra7k6d33h5kimj7ruynk5smsz5gxu@jpeg"
+                }
+              }
+            ]
+          }
+        },
+        "replyCount": 4,
+        "repostCount": 2,
+        "likeCount": 16,
+        "indexedAt": "2023-09-06T21:54:08.660Z",
+        "viewer": {},
+        "labels": []
+      }
+    },
+    {
+      "post": {
+        "uri": "at://did:plc:crlavttcbem4eayfamwmbhkv/app.bsky.feed.post/3k6qyvtlbxz2i",
+        "cid": "bafyreih5wy4z2tmhzvzvxic7urkajpmejhs7wrjgdtquotg5in3xb6woi4",
+        "author": {
+          "did": "did:plc:crlavttcbem4eayfamwmbhkv",
+          "handle": "umo.bsky.social",
+          "displayName": "\u65b0\u5dfb \u9bad",
+          "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:crlavttcbem4eayfamwmbhkv/bafkreihff74rosprcaf464jt3p2vk3gfiftmp6gklukopwdymyqsfx6c64@jpeg",
+          "viewer": {
+            "muted": false,
+            "blockedBy": false,
+            "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k467owabjs2o"
+          },
+          "labels": []
+        },
+        "record": {
+          "text": "\u30b7\u30e7\u30fc\u3055\u3093\uff75\uff8a\uff96\uff70\ud80c\udd9d",
+          "$type": "app.bsky.feed.post",
+          "langs": ["ja"],
+          "reply": {
+            "root": {
+              "cid": "bafyreig3wfgxiowek7nw4kkl3jni52z6ojuhifvisjcehizy7fwtj3icaq",
+              "uri": "at://did:plc:crlavttcbem4eayfamwmbhkv/app.bsky.feed.post/3k6qxvgwqgt2d"
+            },
+            "parent": {
+              "cid": "bafyreigxb4x5khlr6bqjmvwxxkz6lv4am4t2x2sba7kwbsxqtpugwcl5bm",
+              "uri": "at://did:plc:djobdzddoqpwmjbay7prlk6z/app.bsky.feed.post/3k6qyrtc7nz2c"
+            }
+          },
+          "createdAt": "2023-09-06T21:49:25.559Z"
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 1,
+        "indexedAt": "2023-09-06T21:49:25.559Z",
+        "viewer": {},
+        "labels": []
+      },
+      "reply": {
+        "root": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:crlavttcbem4eayfamwmbhkv/app.bsky.feed.post/3k6qxvgwqgt2d",
+          "cid": "bafyreig3wfgxiowek7nw4kkl3jni52z6ojuhifvisjcehizy7fwtj3icaq",
+          "author": {
+            "did": "did:plc:crlavttcbem4eayfamwmbhkv",
+            "handle": "umo.bsky.social",
+            "displayName": "\u65b0\u5dfb \u9bad",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:crlavttcbem4eayfamwmbhkv/bafkreihff74rosprcaf464jt3p2vk3gfiftmp6gklukopwdymyqsfx6c64@jpeg",
+            "viewer": {
+              "muted": false,
+              "blockedBy": false,
+              "following": "at://did:plc:diffmvev4ksyp7nqjc3hitvl/app.bsky.graph.follow/3k467owabjs2o"
+            },
+            "labels": []
+          },
+          "record": {
+            "text": "\u304a\u306f\u3059\u3053\u30fc",
+            "$type": "app.bsky.feed.post",
+            "langs": ["ja"],
+            "createdAt": "2023-09-06T21:31:18.553Z"
+          },
+          "replyCount": 2,
+          "repostCount": 0,
+          "likeCount": 11,
+          "indexedAt": "2023-09-06T21:31:18.553Z",
+          "viewer": {},
+          "labels": []
+        },
+        "parent": {
+          "$type": "app.bsky.feed.defs#postView",
+          "uri": "at://did:plc:djobdzddoqpwmjbay7prlk6z/app.bsky.feed.post/3k6qyrtc7nz2c",
+          "cid": "bafyreigxb4x5khlr6bqjmvwxxkz6lv4am4t2x2sba7kwbsxqtpugwcl5bm",
+          "author": {
+            "did": "did:plc:djobdzddoqpwmjbay7prlk6z",
+            "handle": "shoimada.bsky.social",
+            "displayName": "\u30b7\u30e7\u30fc\u2606\u30a4\u30de\u30c0",
+            "avatar": "https://av-cdn.bsky.app/img/avatar/plain/did:plc:djobdzddoqpwmjbay7prlk6z/bafkreighpjcvymx2pv5skgcrwudswgfjbdfk6o5wdqgh4qjlyinx45fgsq@jpeg",
+            "viewer": { "muted": false, "blockedBy": false },
+            "labels": []
+          },
+          "record": {
+            "text": "\uff75\uff8a\uff96\uff75\uff8a\uff96\uff70\u00a0\u2364\u20dd",
+            "$type": "app.bsky.feed.post",
+            "langs": ["ja"],
+            "reply": {
+              "root": {
+                "cid": "bafyreig3wfgxiowek7nw4kkl3jni52z6ojuhifvisjcehizy7fwtj3icaq",
+                "uri": "at://did:plc:crlavttcbem4eayfamwmbhkv/app.bsky.feed.post/3k6qxvgwqgt2d"
+              },
+              "parent": {
+                "cid": "bafyreig3wfgxiowek7nw4kkl3jni52z6ojuhifvisjcehizy7fwtj3icaq",
+                "uri": "at://did:plc:crlavttcbem4eayfamwmbhkv/app.bsky.feed.post/3k6qxvgwqgt2d"
+              }
+            },
+            "createdAt": "2023-09-06T21:47:11.125Z"
+          },
+          "replyCount": 1,
+          "repostCount": 0,
+          "likeCount": 1,
+          "indexedAt": "2023-09-06T21:47:11.125Z",
+          "viewer": {},
+          "labels": []
+        }
+      }
+    }
+  ],
+  "cursor": "1694036965559::bafyreih5wy4z2tmhzvzvxic7urkajpmejhs7wrjgdtquotg5in3xb6woi4"
+}

@@ -1,0 +1,11 @@
+ADD
+
+Timeline retrieval
+Posting
+Liking
+Deleting
+Feeds
+Feeds
+
+BUGS
+fails on failed auth
