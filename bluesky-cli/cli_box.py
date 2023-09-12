@@ -54,7 +54,18 @@ import re
 
 def strwidth(o: str) -> int:
     if '\x1b]8;;' in o:
-        return wcswidth(strip_ansi("(Link)"))
+        i = str(o.encode('unicode_escape'))
+        str1 = r'\\x1b\\\\'
+        str2 = r'\\x1b]8;;\\x1b\\\\'
+        try:
+            idx1 = i.index(str1)
+            idx2 = i.index(str2)
+            label = ''
+            for idx in range(idx1 + len(str1), idx2):
+                label = label + o[idx]
+            return wcswidth(strip_ansi(label))
+        except Exception as error:
+            return wcswidth(strip_ansi("(Link)"))
     return wcswidth(strip_ansi(o))
 
 

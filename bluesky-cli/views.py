@@ -29,14 +29,29 @@ class viewsRenderer():
         def wrp_message(message):
             lines = message.split('\n')
             section = ''
-            for line in lines:
-                # if '\033]8;' in line or "╭" in line or "│" in line:
-                #     section += line + "\n"
-                #     continue
-                if len(line) > max_length:
-                    w = textwrap.TextWrapper(width=max_length, break_long_words=True)
-                    line = '\n'.join(w.wrap(line))
-                section += line + "\n"
+            for o in lines:
+                str1 = '\x1b]8;;'
+                str2 = '\x1b]8;;\x1b\\'
+                idx1 = []
+                index = 0
+                while index < len(o):
+                    index = o.find(str1, index)
+                    if index == -1:
+                        break
+                    idx1.append(index)
+                    index += len(str1)
+                w = textwrap.TextWrapper(width=max_length, break_long_words=True)
+                for splitIndexes in range(len(idx1)):
+                    if splitIndexes % 2 != 0:
+                        idx1[splitIndexes] = idx1[splitIndexes] + len(str2)
+                idx1.insert(0,0)
+                parts = [o[i:j] for i,j in zip(idx1, idx1[1:]+[None])]
+                for part in parts:
+                    if not part.startswith(str1) and len(part) > max_length:
+                        # part = '\n'.join(w.wrap(part))
+                        section += ('\n'.join(w.wrap(part))) + '\n'
+                    else:
+                        section += part + '\n'
             return section
         rendered_message = []
         for line in text:
@@ -79,7 +94,7 @@ class viewsRenderer():
                         text += "\n" + self.color("UNDERLINE", self.color("BLUE","Image")) + "\n" + image['alt'] + '\n'
             if recordType == 'external':
                 external = embed['external']
-                text += "\n" + self.color("UNDERLINE", self.color("BLUE", self.link(external['uri'], "(Link)"))) + "\nTitle: " + external['title'] + '\n'
+                text += "\n" + self.color("UNDERLINE", self.color("BLUE", "Linked Content")) + '\n' + "\nTitle: " + external['title'] + '\n' + self.link(external['uri'], "(Link)") + '\n'
         except Exception as error:
             print('ERROR', error)
             print('embed', embed)
