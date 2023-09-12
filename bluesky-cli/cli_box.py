@@ -49,9 +49,12 @@ from wcwidth import wcswidth
 from strip_ansi import strip_ansi
 from typing import *
 import doctest
+import re
 
 
 def strwidth(o: str) -> int:
+    if '\x1b]8;;' in o:
+        return wcswidth(strip_ansi("(Link)"))
     return wcswidth(strip_ansi(o))
 
 
