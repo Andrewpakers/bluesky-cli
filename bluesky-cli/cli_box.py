@@ -1,4 +1,6 @@
 # Copied directly from github because the version on pip is outdated
+# I did change some things to make it work with hyperlinks
+# Previously, it wouldn't calculate the width of hyperlinks correctly
 # Source: https://github.com/ewen-lbh/python-cli-box/tree/master
 """
 Adds a box around `text`.
@@ -54,7 +56,8 @@ import re
 
 def strwidth(o: str) -> int:
     if '\x1b]8;;' in o:
-        i = str(o.encode('unicode_escape'))
+        y = strip_ansi(o)
+        i = str(y.encode('unicode_escape'))
         str1 = r'\\x1b\\\\'
         str2 = r'\\x1b]8;;\\x1b\\\\'
         try:
@@ -63,7 +66,10 @@ def strwidth(o: str) -> int:
             label = ''
             for idx in range(idx1 + len(str1), idx2):
                 label = label + o[idx]
-            return wcswidth(strip_ansi(label))
+            print('str', repr(o))
+            print('label', label)
+            print('width', wcswidth(label))
+            return wcswidth(label)
         except Exception as error:
             return wcswidth(strip_ansi("(Link)"))
     return wcswidth(strip_ansi(o))

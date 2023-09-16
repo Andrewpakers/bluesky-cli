@@ -20,7 +20,7 @@ class viewsRenderer():
     def __init__(self):
         self.logo = statics.logo_string
         self.help = statics.help_string
-        self.max_width = 70
+        self.max_width = statics.max_width
     def color(self, color, text):
         return f'{getattr(bcolors, color)}{text}{bcolors.ENDC}'
     def wrapText(self, text, max_length=None):
@@ -48,15 +48,11 @@ class viewsRenderer():
                 parts = [o[i:j] for i,j in zip(idx1, idx1[1:]+[None])]
                 for part in parts:
                     if not part.startswith(str1) and len(part) > max_length:
-                        # part = '\n'.join(w.wrap(part))
                         section += ('\n'.join(w.wrap(part))) + '\n'
                     else:
                         section += part + '\n'
             return section
-        rendered_message = []
-        for line in text:
-            rendered_message.append(wrp_message(line))
-        return rendered_message
+        return wrp_message(text)
     def renderLogo(self):
         print(self.color('BLUE', self.logo))
     def link(self, uri, label=None):
@@ -64,63 +60,46 @@ class viewsRenderer():
         if label is None: 
             label = uri
         parameters = ''
-        # label = textwrap.shorten(label, width=50, placeholder="...")
-
-        # OSC 8 ; params ; URI ST <name> OSC 8 ;; ST 
-        # escape_mask = f'\033]8;{parameters};{uri}\033\\{label}\033]8;;\033\\'
         string = f'\033]8;{parameters};{uri}\033\\{label}\033]8;;\033\\'
         return string
-        # return escape_mask.format(parameters, uri, label)
     def renderEmbed(self, embed):
-        x = re.split("embed.", embed['$type'])[1]
-        recordType = re.split('#', x)[0]
-        text = ""
-        try:
-            if recordType == 'record' and '$type' in embed['record'].keys():
-                ref = re.split("#", embed['record']['$type'])[1]
-                if ref == 'viewRecord':
-                    text = "\n" + self.color("UNDERLINE", self.color("RED","Quoted")) + "\n" + self.color('GREEN', embed['record']['author']['displayName']) + ' ' + self.color('GRAY', '@' + embed["record"]['author']['handle']) + '\n'
-                    text += embed['record']['value']['text'] + '\n'
-                    if 'embed' in embed['record']['value'].keys():
-                        text += self.renderEmbed(embed['record']['value']['embed'])
-                if ref == "generatorView":
-                    pass
-            if recordType == 'images':
-                images = embed['images']
-                for image in images:
-                    if 'fullsize' in image.keys():
-                        text += "\n" + self.color("UNDERLINE", self.color("BLUE","Image")) + "\n" + self.link(image["fullsize"], "(Link)") + "\nAlt: " + image['alt'] + '\n'
-                    else:
-                        text += "\n" + self.color("UNDERLINE", self.color("BLUE","Image")) + "\n" + image['alt'] + '\n'
-            if recordType == 'external':
-                external = embed['external']
-                text += "\n" + self.color("UNDERLINE", self.color("BLUE", "Linked Content")) + '\n' + "\nTitle: " + external['title'] + '\n' + self.link(external['uri'], "(Link)") + '\n'
-        except Exception as error:
-            print('ERROR', error)
-            print('embed', embed)
-        if text == "":
-            return ""
-        # return cli_box.rounded(self.wrapText([text]), align="left")
-        return text
-        # return cli_box.rounded(text)
+        string = ''
+        if 'external' in embed.keys():
+            string += "\n" + cli_box.rounded(self.link(embed['external']['link'], self.color("UNDERLINE", self.color("BLUE", "Link: \n"))) + self.wrapText(embed['external']['title']), align="left") + '\n'
+            print('external', repr(string))
+        if 'images' in embed.keys():
+            for image in embed['images']:
+                string += "\n" + cli_box.rounded(self.wrapText(self.link(image["link"], self.color("UNDERLINE", self.color("BLUE", "Image: "))) + image['alt']), align="left") + '\n'
+            # print('images', repr(string))
+        if 'record' in embed.keys():
+            record = ''
+            record += "\n" + self.color("UNDERLINE", self.color("RED","Quoted")) + "\n" + self.color('GREEN', embed['record']['author']['displayName']) + ' [' + self.color('GRAY', '@' + embed["record"]['author']['handle']) + ']\n'
+            record += self.wrapText(embed['record']['text'])
+            if 'embed' in embed['record'].keys():
+                record += '\n' + self.renderEmbed(embed['record']['embed'])
+            string += "\n" + cli_box.rounded(record, align="left") + '\n'
+        if 'generatorFeed' in embed.keys():
+            generatorFeed = ''
+            generatorFeed += "\n" + self.color("UNDERLINE", self.color("RED","Feed")) + "\n" + self.color('GREEN', embed['generatorFeed']['author']['displayName']) + ' [' + self.color('GRAY', '@' + embed["generatorFeed"]['author']['handle']) + ']\n'
+            generatorFeed += self.wrapText(embed['generatorFeed']['description'])
+            generatorFeed += '\n' + self.link(embed['generatorFeed']['link'], "(Link)")
+            string += "\n" + cli_box.rounded(generatorFeed, align="left") + '\n'
+        return string
     def renderSkeet(self, skeet):
         text = []
         if 'reply' in skeet.keys():
-            if skeet['reply']['parent']['$type'] == "app.bsky.feed.defs#postView":
-                string = ''
-                string = self.color('GRAY', skeet['reply']['parent']['author']['displayName'] + ' [' + skeet['reply']['parent']['author']['handle']) + ']\n'
-                string += skeet['reply']['parent']['record']['text']
-                if 'embed' in skeet['reply']['parent'].keys():
-                    string += '\n' + self.renderEmbed(skeet['reply']['parent']['embed'])
-                text.append(string)
+            string = ''
+            string = self.color('GRAY', skeet['reply']['parent']['author']['displayName'] + ' [' + skeet['reply']['parent']['author']['handle']) + ']\n'
+            string += self.wrapText(skeet['reply']['parent']['text'])
+            if 'embed' in skeet['reply']['parent'].keys():
+                string += '\n' + self.renderEmbed(skeet['reply']['parent']['embed'])
+            text.append(string)
         string = ''
-        string = self.color('GREEN', skeet['post']['author']['displayName']) + ' ' + self.color('GRAY', '@' + skeet["post"]['author']['handle']) + '\n'
-        string += skeet['post']['record']['text'] + '\n'
-        string += 'Likes: ' + str(skeet['post']['likeCount']) + ' ' + 'Replies: ' + str(skeet['post']['replyCount']) + ' ' + 'Reposts: ' + str(skeet['post']['repostCount'])
-        # Use the renderEmbed function
-        if 'embed' in skeet['post'].keys():
-            string += '\n' + self.renderEmbed(skeet['post']['embed'])
+        string = self.color('GREEN', skeet['author']['displayName']) + ' ' + self.color('GRAY', '@' + skeet['author']['handle']) + '\n'
+        string += self.wrapText(skeet['text'])
+        if 'embed' in skeet.keys():
+            string += '\n' + self.renderEmbed(skeet['embed'])
+        string += '\n' + 'Likes: ' + str(skeet['likeCount']) + ' ' + 'Replies: ' + str(skeet['replyCount']) + ' ' + 'Reposts: ' + str(skeet['repostCount'])
         text.append(string)
-        # print('text', text)
-        rendered_box = cli_box.rounded(self.wrapText(text), align="left")
+        rendered_box = cli_box.rounded(text, align="left")
         print(rendered_box)

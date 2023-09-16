@@ -12,3 +12,5 @@ Use the following commands:
 
 
 """
+
+max_width = 70
