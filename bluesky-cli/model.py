@@ -107,6 +107,8 @@ def createEmbed(rawEmbed, did):
                                     'link': link,
                                 })
             elif '$type' in rawEmbed['record'] and 'record' in rawEmbed['record']['$type']:
+                if not 'displayName' in rawEmbed['record']['author'].keys():
+                    rawEmbed['record']['author']['displayName'] = ''
                 record = {}
                 record.update(processURI(rawEmbed['record']['uri']))
                 record['author']['handle'] = rawEmbed['record']['author']['handle']
@@ -119,6 +121,10 @@ def createEmbed(rawEmbed, did):
                 record['createdAt'] = rawEmbed['record']['value']['createdAt']
                 embed['record'] = record
             elif '$type' in rawEmbed['record'] and "generator" in rawEmbed['record']['$type']:
+                if not 'displayName' in rawEmbed['record']['creator'].keys():
+                    rawEmbed['record']['creator']['displayName'] = ''
+                if not 'displayName' in rawEmbed['record'].keys():
+                    rawEmbed['record']['displayName'] = ''
                 linkData = processURI(rawEmbed['record']['uri'])
                 link = "https://bsky.app/profile/did:plc:" + linkData['author']['did'] + "/feed/" + linkData['postid']
                 embed['generatorFeed'] = {
@@ -138,6 +144,10 @@ def createEmbed(rawEmbed, did):
         print('rawEmbed', rawEmbed)
         return
 def processReply(rawReply):
+    if not 'displayName' in rawReply['parent']['author'].keys():
+        rawReply['parent']['author']['displayName'] = ''
+    if not 'displayName' in rawReply['root']['author'].keys():
+        rawReply['root']['author']['displayName'] = ''
     try:
         reply = {}
         parent = {}
@@ -178,6 +188,8 @@ def processReply(rawReply):
         print('rawReply', rawReply)
         return
 def createSkeet(rawSkeet):
+    if not 'displayName' in rawSkeet['post']['author'].keys():
+        rawSkeet['post']['author']['displayName'] = ''
     try:
         skeet = {}
         skeet.update(processURI(rawSkeet['post']['uri']));

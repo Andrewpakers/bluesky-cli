@@ -65,8 +65,8 @@ class viewsRenderer():
     def renderEmbed(self, embed):
         string = ''
         if 'external' in embed.keys():
-            string += "\n" + cli_box.rounded(self.link(embed['external']['link'], self.color("UNDERLINE", self.color("BLUE", "Link: \n"))) + self.wrapText(embed['external']['title']), align="left") + '\n'
-            print('external', repr(string))
+            string += "\n" + cli_box.rounded(self.link(embed['external']['link'], self.color("UNDERLINE", self.color("BLUE", "Link:"))) + "\n" + self.wrapText(embed['external']['title']), align="left") + '\n'
+            # string += "\n" + self.link(embed['external']['link'], self.color("UNDERLINE", self.color("BLUE", "Link: \n"))) + self.wrapText(embed['external']['title']) + '\n'
         if 'images' in embed.keys():
             for image in embed['images']:
                 string += "\n" + cli_box.rounded(self.wrapText(self.link(image["link"], self.color("UNDERLINE", self.color("BLUE", "Image: "))) + image['alt']), align="left") + '\n'
